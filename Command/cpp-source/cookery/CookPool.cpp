@@ -3,6 +3,7 @@
 //
 
 #include "CookPool.h"
+#include <memory>
 
 std::shared_ptr<Cook> CookPool::GetCook() {
   if (!cook_) {
