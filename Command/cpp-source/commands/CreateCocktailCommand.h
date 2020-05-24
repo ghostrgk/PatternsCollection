@@ -6,6 +6,7 @@
 
 #include "Command.h"
 #include "../cookery/Barman.h"
+#include <memory>
 
 class CreateCocktailCommand : public Command {
  public:
